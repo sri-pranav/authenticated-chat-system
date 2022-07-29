@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+body {
+    background-image: url("./car.jpeg");
+background-repeat: no-repeat;
+background-size: 100vw auto;
+  text-align: center;
+}
+#login {
+  background: skyblue;
+  position: absolute;
+  left: calc(50% - 12rem);
+  height: 388px;
+  width: 288px;
+  border-radius: 20px;
+  top:calc(50% - 175px);
+  padding: 20px;
+  font-size: 30px;
+  margin:1rem;
+}
+#login > form > *{
+   margin: 10px;
+  }
+#login > form > input {
+  height: 35px;
+  width:90%;
+}
+#submit{
+    width: 90%;
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: skyblue;
+      background-image: none;
+      }
+  }
