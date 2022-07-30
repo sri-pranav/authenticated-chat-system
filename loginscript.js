@@ -4,7 +4,7 @@ function submit(){
     
     if(userid == "pranav"&&password=="work"){
         alert("login success");
-        window.location.replace("./main.html");   
+        window.location.replace("https://hack.chat/?(pranav)");   
     }
     else{
         alert("login failed");
