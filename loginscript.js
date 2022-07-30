@@ -8,6 +8,7 @@ function submit(){
     }
     else{
         alert("login failed");
+        window.location.replace("./mon-key.jpg");
     }
 }
 document.getElementById('submit').onclick = submit;
