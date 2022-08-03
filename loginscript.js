@@ -2,7 +2,7 @@ function submit(){
     let userid = document.getElementById('userid').value;
     let password = document.getElementById('password').value;
     
-    if(userid == "kishore"&&password=="kishore"){
+    if(userid == "pranav"&&password=="work"){
         
         window.location.replace("https://hack.chat/?(pranav)");   
     }
